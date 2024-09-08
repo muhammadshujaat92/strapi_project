@@ -875,8 +875,8 @@ export interface ApiPageContentPageContent extends Schema.CollectionType {
     Title: Attribute.String;
     paragraph: Attribute.String;
     image: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    circleContent: Attribute.JSON;
-    list: Attribute.JSON;
+    circleContentTitle: Attribute.String;
+    circleContentPara: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

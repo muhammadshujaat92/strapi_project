@@ -32,11 +32,11 @@
         "audios"
       ]
     },
-    "circleContent": {
-      "type": "json"
+    "circleContentTitle": {
+      "type": "string"
     },
-    "list": {
-      "type": "json"
+    "circleContentPara": {
+      "type": "string"
     }
   }
 }
